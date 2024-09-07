@@ -8,7 +8,7 @@ import githubLight from "../../assets/github-light.svg";
 import twitterDark from "../../assets/twitter-dark.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
 import githubDark from "../../assets/github-dark.svg";
-import CV from "../../assets/cv.pdf";
+import Resume from "../../assets/Resume_Kahil,Ibrahim.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
@@ -42,9 +42,6 @@ function Hero() {
         </h1>
         <h2>Full-Stack Developer</h2>
         <span>
-          <a href="" target="_blank">
-            <img src={twitterIcon} alt="Twitter icon" />
-          </a>
           <a href="https://github.com/ibz-kahil" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
@@ -53,10 +50,10 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion fro developing modern React web apps for commerical
+          With a passion fro developing modern web apps for commerical
           businesses.
         </p>
-        <a href={CV} download>
+        <a href={Resume} download>
           <button className="hover">Resume</button>
         </a>
       </div>
